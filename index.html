@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zalomedia22 | Digital Marketing Agency</title>
+    <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script>
@@ -25,24 +26,31 @@
 </head>
 <body class="bg-agency-lightbg text-slate-800 font-sans antialiased selection:bg-rose-600 selection:text-white">
 
+    <!-- Header / Navbar -->
     <header class="fixed top-0 left-0 w-full bg-white/90 backdrop-blur-md z-50 border-b border-slate-200 shadow-sm">
         <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
-            <a href="#" class="text-2xl font-black tracking-wider flex items-center gap-1 mx-auto md:mx-0">
-                <span class="text-slate-900">ZALOMEDIA</span><span class="text-rose-600">22</span>
-            </a>
-            <nav class="hidden md:flex space-x-8 text-sm font-semibold text-slate-600">
+            <!-- Perfectly Centered Logo -->
+            <div class="w-full flex justify-center md:justify-start">
+                <a href="#" class="text-2xl font-black tracking-wider flex items-center gap-1">
+                    <span class="text-slate-900">ZALOMEDIA</span><span class="text-rose-600">22</span>
+                </a>
+            </div>
+            <nav class="hidden md:flex space-x-8 text-sm font-semibold text-slate-600 whitespace-nowrap">
                 <a href="#home" class="hover:text-rose-600 transition">Home</a>
                 <a href="#services" class="hover:text-rose-600 transition">Services</a>
                 <a href="#portfolio" class="hover:text-rose-600 transition">Portfolio</a>
                 <a href="#about" class="hover:text-rose-600 transition">About Us</a>
                 <a href="#contact" class="hover:text-rose-600 transition">Contact</a>
             </nav>
-            <a href="https://instagram.com/zalomedia22" target="_blank" class="hidden md:inline-flex items-center gap-2 bg-rose-600 hover:bg-rose-700 text-white px-6 py-2.5 rounded-full text-sm font-semibold shadow-md shadow-rose-600/20 transition">
-                <i class="fa-brands fa-instagram"></i> DM on Insta
-            </a>
+            <div class="hidden md:block ml-6">
+                <a href="https://instagram.com/zalomedia22" target="_blank" class="inline-flex items-center gap-2 bg-rose-600 hover:bg-rose-700 text-white px-6 py-2.5 rounded-full text-sm font-semibold shadow-md shadow-rose-600/20 transition whitespace-nowrap">
+                    <i class="fa-brands fa-instagram"></i> DM on Insta
+                </a>
+            </div>
         </div>
     </header>
 
+    <!-- Hero Section -->
     <section id="home" class="pt-36 pb-24 md:pt-48 md:pb-32 px-6 max-w-7xl mx-auto text-center">
         <div class="inline-block bg-rose-50 text-rose-600 text-xs font-bold px-4 py-1.5 rounded-full mb-6 border border-rose-100 uppercase tracking-wider">
             🚀 Digital Marketing & Performance Agency
@@ -61,6 +69,7 @@
         </div>
     </section>
 
+    <!-- Services Section -->
     <section id="services" class="py-24 bg-white border-t border-b border-slate-200 px-6">
         <div class="max-w-7xl mx-auto">
             <div class="text-center max-w-2xl mx-auto mb-16">
@@ -70,6 +79,7 @@
             </div>
             
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Service 1 -->
                 <div class="bg-slate-50 p-8 rounded-2xl border border-slate-200 hover:border-rose-500 hover:shadow-xl transition group">
                     <div class="w-14 h-14 bg-rose-50 text-rose-600 rounded-xl flex items-center justify-center text-2xl mb-6 group-hover:bg-rose-600 group-hover:text-white transition">
                         <i class="fa-solid fa-bullhorn"></i>
@@ -78,6 +88,7 @@
                     <p class="text-slate-600 text-sm leading-relaxed">Data-driven Facebook and Instagram ad campaigns optimized to scale ROAS and lower customer acquisition cost.</p>
                 </div>
 
+                <!-- Service 2 -->
                 <div class="bg-slate-50 p-8 rounded-2xl border border-slate-200 hover:border-rose-500 hover:shadow-xl transition group">
                     <div class="w-14 h-14 bg-rose-50 text-rose-600 rounded-xl flex items-center justify-center text-2xl mb-6 group-hover:bg-rose-600 group-hover:text-white transition">
                         <i class="fa-solid fa-share-nodes"></i>
@@ -86,6 +97,7 @@
                     <p class="text-slate-600 text-sm leading-relaxed">Engaging content strategies, regular posting, and community management to build strong brand loyalty.</p>
                 </div>
 
+                <!-- Service 3 -->
                 <div class="bg-slate-50 p-8 rounded-2xl border border-slate-200 hover:border-rose-500 hover:shadow-xl transition group">
                     <div class="w-14 h-14 bg-rose-50 text-rose-600 rounded-xl flex items-center justify-center text-2xl mb-6 group-hover:bg-rose-600 group-hover:text-white transition">
                         <i class="fa-solid fa-magnifying-glass-chart"></i>
@@ -94,6 +106,7 @@
                     <p class="text-slate-600 text-sm leading-relaxed">Rank higher on search engines organically to capture high-intent buyers looking for your exact services.</p>
                 </div>
 
+                <!-- Service 4 -->
                 <div class="bg-slate-50 p-8 rounded-2xl border border-slate-200 hover:border-rose-500 hover:shadow-xl transition group">
                     <div class="w-14 h-14 bg-rose-50 text-rose-600 rounded-xl flex items-center justify-center text-2xl mb-6 group-hover:bg-rose-600 group-hover:text-white transition">
                         <i class="fa-solid fa-rectangle-ad"></i>
@@ -102,6 +115,7 @@
                     <p class="text-slate-600 text-sm leading-relaxed">Targeted search campaigns to drive immediate conversions and sales from active internet shoppers.</p>
                 </div>
 
+                <!-- Service 5 -->
                 <div class="bg-slate-50 p-8 rounded-2xl border border-slate-200 hover:border-rose-500 hover:shadow-xl transition group">
                     <div class="w-14 h-14 bg-rose-50 text-rose-600 rounded-xl flex items-center justify-center text-2xl mb-6 group-hover:bg-rose-600 group-hover:text-white transition">
                         <i class="fa-solid fa-laptop-code"></i>
@@ -110,6 +124,7 @@
                     <p class="text-slate-600 text-sm leading-relaxed">High-performance, modern, and mobile-responsive websites engineered to turn traffic into paying clients.</p>
                 </div>
 
+                <!-- Service 6 -->
                 <div class="bg-slate-50 p-8 rounded-2xl border border-slate-200 hover:border-rose-500 hover:shadow-xl transition group">
                     <div class="w-14 h-14 bg-rose-50 text-rose-600 rounded-xl flex items-center justify-center text-2xl mb-6 group-hover:bg-rose-600 group-hover:text-white transition">
                         <i class="fa-solid fa-palette"></i>
@@ -121,6 +136,7 @@
         </div>
     </section>
 
+    <!-- Portfolio / Meta Ads Proof Section -->
     <section id="portfolio" class="py-24 px-6 max-w-7xl mx-auto">
         <div class="text-center max-w-3xl mx-auto mb-16">
             <span class="text-rose-600 font-bold text-sm uppercase tracking-wider">Verified Results</span>
@@ -128,6 +144,7 @@
             <p class="text-slate-600 mt-3">Live data dashboards showing scaled purchases, high ROAS, and high-converting lead generation campaigns managed by Zalomedia22.</p>
         </div>
 
+        <!-- 1st Dashboard: E-Commerce Purchases & ROAS -->
         <div class="bg-slate-950 p-4 md:p-8 rounded-3xl border border-slate-800 shadow-2xl relative overflow-hidden text-slate-100 font-sans mb-12">
             <div class="absolute top-4 right-4 z-20 bg-rose-600 text-white text-xs font-bold px-4 py-2 rounded-full shadow-lg uppercase tracking-wider border border-white/20 flex items-center gap-1.5">
                 <i class="fa-solid fa-shield-halved"></i> ZALOMEDIA22 VERIFIED RESULT
@@ -207,4 +224,133 @@
             </div>
         </div>
 
-        <div class="bg-slate-950 p-4 md:p-8 rounded-3xl border border-slate-800 shadow-2xl relative overflow-hidden text-slate-100 font
+        <!-- 2nd Dashboard: Lead Generation Campaign Proof (₹20 Lakh+ Spend) -->
+        <div class="bg-slate-950 p-4 md:p-8 rounded-3xl border border-slate-800 shadow-2xl relative overflow-hidden text-slate-100 font-sans">
+            <div class="absolute top-4 right-4 z-20 bg-rose-600 text-white text-xs font-bold px-4 py-2 rounded-full shadow-lg uppercase tracking-wider border border-white/20 flex items-center gap-1.5">
+                <i class="fa-solid fa-shield-halved"></i> ZALOMEDIA22 LEAD GEN PROOF
+            </div>
+
+            <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center border-b border-slate-800 pb-4 mb-6 gap-4">
+                <div class="flex items-center gap-3">
+                    <span class="w-3 h-3 bg-emerald-500 rounded-full animate-pulse"></span>
+                    <h3 class="font-bold text-lg tracking-wide text-white">Meta Lead Generation <span class="text-xs font-normal text-slate-400 ml-2">(High-Ticket & Service Leads)</span></h3>
+                </div>
+                <div class="text-xs bg-slate-900 text-slate-300 px-3 py-1.5 rounded-lg border border-slate-800">
+                    🎯 Focus: Low Cost Per Lead (CPL)
+                </div>
+            </div>
+
+            <div class="overflow-x-auto">
+                <table class="w-full text-left text-xs md:text-sm whitespace-nowrap">
+                    <thead class="bg-slate-900 text-slate-400 uppercase tracking-wider border-b border-slate-800 text-[11px]">
+                        <tr>
+                            <th class="py-3 px-4">Campaign Name</th>
+                            <th class="py-3 px-4">Results (Leads)</th>
+                            <th class="py-3 px-4">Cost per Lead (CPL)</th>
+                            <th class="py-3 px-4">Total Spent</th>
+                            <th class="py-3 px-4">Quality Score</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-slate-900/80">
+                        <tr class="hover:bg-slate-900/50 transition">
+                            <td class="py-4 px-4 font-medium text-slate-200">Sunny | Leads | <span class="bg-slate-800 text-slate-500 px-2 py-0.5 rounded blur-[3px] select-none">██████████</span></td>
+                            <td class="py-4 px-4 text-slate-300">4,250 Leads</td>
+                            <td class="py-4 px-4 text-emerald-400 font-bold">₹118.40</td>
+                            <td class="py-4 px-4 text-slate-300">₹503,200.00</td>
+                            <td class="py-4 px-4 text-amber-400 font-bold">★ High Intent</td>
+                        </tr>
+                        <tr class="hover:bg-slate-900/50 transition">
+                            <td class="py-4 px-4 font-medium text-slate-200">Sunny | Instant Form | <span class="bg-slate-800 text-slate-500 px-2 py-0.5 rounded blur-[3px] select-none">██████████</span></td>
+                            <td class="py-4 px-4 text-slate-300">8,120 Leads</td>
+                            <td class="py-4 px-4 text-emerald-400 font-bold">₹94.25</td>
+                            <td class="py-4 px-4 text-slate-300">₹765,310.00</td>
+                            <td class="py-4 px-4 text-amber-400 font-bold">★ Verified</td>
+                        </tr>
+                        <tr class="hover:bg-slate-900/50 transition">
+                            <td class="py-4 px-4 font-medium text-slate-200">Sunny | Scale Funnel | <span class="bg-slate-800 text-slate-500 px-2 py-0.5 rounded blur-[3px] select-none">██████████</span></td>
+                            <td class="py-4 px-4 text-slate-300">6,430 Leads</td>
+                            <td class="py-4 px-4 text-emerald-400 font-bold">₹128.50</td>
+                            <td class="py-4 px-4 text-slate-300">₹826,255.00</td>
+                            <td class="py-4 px-4 text-amber-400 font-bold">★ Premium</td>
+                        </tr>
+                    </tbody>
+                    <tfoot class="bg-slate-900/80 border-t border-slate-800 font-bold text-sky-400">
+                        <tr>
+                            <td class="py-4 px-4">Total Lead Campaigns</td>
+                            <td class="py-4 px-4 text-white">18,800+ Total Leads</td>
+                            <td class="py-4 px-4 text-emerald-400">Avg ₹112 CPL</td>
+                            <td class="py-4 px-4 text-white">₹2,094,765.00 Spent (~₹20.9L)</td>
+                            <td class="py-4 px-4 text-emerald-400 text-base">Top Quality</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+            <div class="mt-6 pt-4 border-t border-slate-900 text-center text-slate-500 text-xs flex items-center justify-center gap-2">
+                <i class="fa-solid fa-lock text-rose-500"></i> Delivering high-intent inquiries with optimized Meta lead generation funnels.
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section & Highlights -->
+    <section id="about" class="py-24 px-6 max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center bg-white rounded-3xl border border-slate-200 my-12 shadow-sm">
+        <div class="p-6 md:p-8">
+            <span class="text-rose-600 font-bold text-sm uppercase tracking-wider">About Us</span>
+            <h2 class="text-3xl md:text-4xl font-extrabold tracking-tight text-slate-900 mt-2 mb-6">Why Partner With Zalomedia22?</h2>
+            <p class="text-slate-600 leading-relaxed mb-6">
+                We manage over <strong class="text-slate-900">₹40 Lakhs+ in monthly ad spend</strong> for scaling businesses. Our focus is purely on data-backed performance marketing, reducing customer acquisition costs, and skyrocketing your revenue.
+            </p>
+            <ul class="space-y-4 text-sm font-medium text-slate-700">
+                <li class="flex items-center gap-3"><i class="fa-solid fa-circle-check text-rose-600"></i> Expert Meta Ads scaling & funnel optimization</li>
+                <li class="flex items-center gap-3"><i class="fa-solid fa-circle-check text-rose-600"></i> Transparent performance reporting & 6x+ average ROAS tracking</li>
+                <li class="flex items-center gap-3"><i class="fa-solid fa-circle-check text-rose-600"></i> Dedicated growth experts handling your campaigns 24/7</li>
+            </ul>
+        </div>
+        <div class="p-6 md:p-8">
+            <div class="bg-gradient-to-br from-rose-50 to-pink-50 p-8 md:p-12 rounded-3xl border border-rose-100 text-center shadow-lg">
+                <div class="grid grid-cols-2 gap-6">
+                    <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm">
+                        <div class="text-2xl md:text-3xl font-extrabold text-rose-600 mb-1">₹40L+</div>
+                        <div class="text-slate-500 text-xs font-bold uppercase">Monthly Ad Spend</div>
+                    </div>
+                    <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm">
+                        <div class="text-2xl md:text-3xl font-extrabold text-pink-600 mb-1">6.16x</div>
+                        <div class="text-slate-500 text-xs font-bold uppercase">Average ROAS</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Instagram Direct Contact Section -->
+    <section id="contact" class="py-24 bg-slate-50 border-t border-slate-200 px-6 text-center">
+        <div class="max-w-2xl mx-auto bg-white p-10 md:p-14 rounded-3xl border border-slate-200 shadow-xl">
+            <div class="w-16 h-16 bg-rose-100 text-rose-600 rounded-2xl flex items-center justify-center text-3xl mx-auto mb-6 shadow-inner">
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+            <h2 class="text-3xl font-extrabold text-slate-900 mb-3">Let's Scale Your Ad Campaigns</h2>
+            <p class="text-slate-600 text-sm md:text-base mb-8">
+                Ready to scale your brand with ₹40L+ ad management experience? Direct message us on Instagram to discuss your project.
+            </p>
+            <a href="https://instagram.com/zalomedia22" target="_blank" class="inline-flex items-center justify-center gap-3 bg-gradient-to-r from-rose-600 to-pink-600 hover:opacity-95 text-white font-bold px-8 py-4 rounded-xl shadow-lg shadow-rose-600/30 text-lg transition transform hover:-translate-y-0.5">
+                <i class="fa-brands fa-instagram text-2xl"></i> Message @zalomedia22
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 border-t border-slate-200 bg-slate-900 text-slate-400">
+        <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6">
+            <div class="text-lg font-black tracking-wider text-white">
+                ZALOMEDIA<span class="text-rose-600">22</span>
+            </div>
+            <p class="text-xs">&copy; 2026 Zalomedia22. All rights reserved.</p>
+            <div class="flex space-x-6 text-xl text-slate-300">
+                <a href="https://instagram.com/zalomedia22" target="_blank" class="hover:text-rose-500 transition"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://instagram.com/zalomedia22" target="_blank" class="hover:text-rose-500 transition"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://instagram.com/zalomedia22" target="_blank" class="hover:text-rose-500 transition"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
